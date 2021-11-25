@@ -1,0 +1,167 @@
+:root {
+    --primery-text-color: #757575;
+    --accent-color: #2196F3;
+    --title-text-color: #212121;
+    --logo-text-color: #FFFFFF;
+    --team-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+}
+/* Основні налаштування */
+body {
+    font-family:'Roboto', 'Segoe UI', 'Oxygen',
+     'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', 
+     'sans-serif';
+      background-color:#E5E5E5;
+}
+a {text-decoration: none;}
+ul, ol {
+    list-style: none 
+}
+/* основний колір - #757575; 
+Другородний колір - #212121;
+Акцент - #2196F3;
+Колір футера - background: #FFFFFF; */
+/* Налаштування headerа */
+.page {
+Background-color: var(--page-backround-color)}
+.page-header-nav {
+color: var(--title-text-color);
+font-family: 'Roboto';
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 1,2;
+text-align: left;
+}
+.page-header-logo {
+color: var(--accent-color);
+font-family: 'Raleway';
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 1,2m;
+text-align: left;
+}
+.page-header {
+    background-color: var(--logo-text-color)    
+}
+.link-nav {
+color: var(--title-text-color);
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 1,2;
+}
+.link-nav:hover,
+.link-nav:focus {
+   color: var(--accent-color);
+}
+/* Налаштування скуції "hero" */
+.hero { 
+    background-color: var(--footer-background-color);
+}
+.hero-text {
+color: var(--logo-text-color);
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 1,4;
+text-align: center;
+}
+.hero-buton {
+    background-color: var(--accent-color);
+}
+/* Налаштування "background-color" секцій */
+.section-page {
+    background-color: var(--team-background-color)
+}
+.section {
+    color: var(--title-text-color);
+}
+    /* Налаштування секції "Переваги"  */
+.section-benefits-title {
+    color: var(--title-text-color);
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 1,2;
+text-align: left;
+}
+.section-benefits-text {
+color: var(--primery-text-color);
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 1,7;
+text-align: left;
+}
+/* Налаштування скції "Чим ми займаємось" */
+.section-work {
+color: var(--title-text-color);
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 1,2;
+text-align: center;
+}
+/* Налаштування скуції "Наша команда" */
+.pege-team {
+color: var(--title-text-color);
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 1,2;
+text-align: center;
+}
+.page-team-employee {
+color: var(--title-text-color);
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 1,2;
+}
+.section-team-specialty {
+color: var(--primery-text-color);
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 1,2;
+}
+/* Налаштування сторінки portfolio */
+.portfolio-work {
+color: var(--title-text-color);
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 2;
+}
+.portfolio-work-type {
+color: var(--primery-text-color);
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 1,9;
+text-align: left;
+}
+/* Налаштування footera */
+.page-footer { 
+    background-color: var(--footer-background-color)
+    }
+    .footer-nav {
+        color: var(--logo-text-color);
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 1,7;
+text-align: left;
+    }
+    .footer-address {
+        color: var(--logo-text-color);
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 1,7;
+text-align: left;
+    }
+    .page-footer-nav {
+        color: var(--logo-text-color);
+        font-family: 'Roboto';
+        font-size: 26px;
+        line-height: 26px;
+        letter-spacing: 1,2;
+        text-align: left;
+    }
+    .page-footer-logo {
+        color: var(--accent-color);
+font-family: 'Raleway';      
+font-size: 26px;
+line-height: 26px;
+letter-spacing: 1,2;
+text-align: left;
+    }
