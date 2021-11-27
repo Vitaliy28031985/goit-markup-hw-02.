@@ -51,11 +51,15 @@ letter-spacing: 1,2;
 }
 .link-nav:hover,
 .link-nav:focus {
-   color: var(--accent-color);
+    color: var(--accent-color);
+}
+.current {
+    color: var(--accent-color);
 }
 /* Налаштування скуції "hero" */
 .hero { 
     background-color: var(--footer-background-color);
+    text-align: center;
 }
 .hero-text {
 color: var(--logo-text-color);
@@ -66,15 +70,25 @@ text-align: center;
 }
 .hero-buton {
     background-color: var(--accent-color);
+    color: var(--logo-text-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 1,8;
+text-align: center;
 }
 /* Налаштування "background-color" секцій */
 .section-page {
-    background-color: var(--team-background-color)
+    background-color: var(--team-background-color);
 }
 .section {
     color: var(--title-text-color);
 }
     /* Налаштування секції "Переваги"  */
+    .section-benefits {
+        display: none;
+    }
 .section-benefits-title {
     color: var(--title-text-color);
 font-size: 14px;
@@ -110,19 +124,47 @@ color: var(--title-text-color);
 font-size: 16px;
 line-height: 19px;
 letter-spacing: 1,2;
+text-align: center;
 }
 .section-team-specialty {
 color: var(--primery-text-color);
 font-size: 16px;
 line-height: 19px;
 letter-spacing: 1,2;
+text-align: center;
 }
 /* Налаштування сторінки portfolio */
+.portfolio-buton {
+    background-color:var(--team-background-color);
+    color: var(--title-text-color);
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 1,6;
+text-align: center;  
+}
+.portfolio-buton-all {
+    color: var(--logo-text-color);
+    background-color: var(--accent-color);
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1,6;
+    text-align: center;   
+}
+.portfolio-buton:hover,
+.portfolio-buton:focus { 
+color: var(--logo-text-color);
+background-color: var(--accent-color);
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 1,6;
+text-align: center;
+}
 .portfolio-work {
 color: var(--title-text-color);
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 2;
+text-align: center;
 }
 .portfolio-work-type {
 color: var(--primery-text-color);
@@ -130,6 +172,7 @@ font-size: 16px;
 line-height: 30px;
 letter-spacing: 1,9;
 text-align: left;
+text-align: center;
 }
 /* Налаштування footera */
 .page-footer { 
@@ -164,4 +207,4 @@ font-size: 26px;
 line-height: 26px;
 letter-spacing: 1,2;
 text-align: left;
-    }
+}
