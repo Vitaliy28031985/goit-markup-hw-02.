@@ -2,9 +2,11 @@
     --primery-text-color: #757575;
     --accent-color: #2196F3;
     --title-text-color: #212121;
+    --title-text-Letter: rgba(33, 33, 33, 1);
     --logo-text-color: #FFFFFF;
     --team-background-color: #F5F4FA;
     --footer-background-color: #2F303A;
+    --hiro-hover-focus: rgba(33, 150, 243, 1);
 }
 /* Основні налаштування */
 body {
@@ -28,26 +30,34 @@ Background-color: var(--page-backround-color)}
 color: var(--title-text-color);
 font-family: 'Roboto';
 font-size: 26px;
-line-height: 31px;
-letter-spacing: 1,2;
+line-height: 1.2;
 text-align: left;
 }
 .page-header-logo {
 color: var(--accent-color);
 font-family: 'Raleway';
 font-size: 26px;
-line-height: 31px;
-letter-spacing: 1,2m;
+line-height: 1.2;
 text-align: left;
 }
 .page-header {
     background-color: var(--logo-text-color)    
 }
 .link-nav {
-color: var(--title-text-color);
+color: rgba(33, 33, 33, 1);
+font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 1,2;
+line-height: 1.2;
+}
+.link-contact {
+    color: rgba(117, 117, 117, 1);
+    font-Weight: 500;
+    font-size: 14px;
+    line-height: 1.2;  
+}
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--accent-color); 
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -63,9 +73,9 @@ letter-spacing: 1,2;
 }
 .hero-text {
 color: var(--logo-text-color);
+text-transform:uppercase;
 font-size: 44px;
-line-height: 60px;
-letter-spacing: 1,4;
+line-height: 1.4;
 text-align: center;
 }
 .hero-buton {
@@ -74,10 +84,20 @@ text-align: center;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
-line-height: 30px;
-letter-spacing: 1,8;
+line-height: 1.8;
 text-align: center;
 }
+.hero-buton:hover,
+.hero-buton:focus {
+    background-color: #188CE8;
+    color: var(--logo-text-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.8;
+text-align: center;
+}
+
 /* Налаштування "background-color" секцій */
 .section-page {
     background-color: var(--team-background-color);
@@ -91,39 +111,36 @@ text-align: center;
     }
 .section-benefits-title {
     color: var(--title-text-color);
+    text-transform:uppercase;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 1,2;
+line-height: 1.2;
 text-align: left;
 }
 .section-benefits-text {
 color: var(--primery-text-color);
 font-size: 14px;
-line-height: 24px;
-letter-spacing: 1,7;
+line-height: 1.7;
 text-align: left;
 }
 /* Налаштування скції "Чим ми займаємось" */
 .section-work {
 color: var(--title-text-color);
 font-size: 36px;
-line-height: 42px;
-letter-spacing: 1,2;
+line-height: 1.2;
 text-align: center;
 }
 /* Налаштування скуції "Наша команда" */
 .pege-team {
 color: var(--title-text-color);
 font-size: 36px;
-line-height: 42px;
-letter-spacing: 1,2;
+line-height: 1.2;
 text-align: center;
 }
 .page-team-employee {
 color: var(--title-text-color);
+font-weight: 500;
 font-size: 16px;
-line-height: 19px;
-letter-spacing: 1,2;
+line-height: 1.2;
 text-align: center;
 }
 .section-team-specialty {
@@ -138,16 +155,14 @@ text-align: center;
     background-color:var(--team-background-color);
     color: var(--title-text-color);
 font-size: 16px;
-line-height: 26px;
-letter-spacing: 1,6;
+line-height: 1.6;
 text-align: center;  
 }
 .portfolio-buton-all {
     color: var(--logo-text-color);
     background-color: var(--accent-color);
     font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 1,6;
+    line-height: 1.6;
     text-align: center;   
 }
 .portfolio-buton:hover,
@@ -155,22 +170,19 @@ text-align: center;
 color: var(--logo-text-color);
 background-color: var(--accent-color);
 font-size: 16px;
-line-height: 26px;
-letter-spacing: 1,6;
+line-height: 1.6;
 text-align: center;
 }
 .portfolio-work {
 color: var(--title-text-color);
 font-size: 18px;
-line-height: 36px;
-letter-spacing: 2;
+line-height: 2;
 text-align: center;
 }
 .portfolio-work-type {
 color: var(--primery-text-color);
 font-size: 16px;
-line-height: 30px;
-letter-spacing: 1,9;
+line-height: 1.9;
 text-align: left;
 text-align: center;
 }
@@ -179,32 +191,30 @@ text-align: center;
     background-color: var(--footer-background-color)
     }
     .footer-nav {
-        color: var(--logo-text-color);
+color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
-line-height: 24px;
-letter-spacing: 1,7;
+font-style: normal;
+line-height: 1.7;
 text-align: left;
-    }
+}
     .footer-address {
         color: var(--logo-text-color);
 font-size: 14px;
-line-height: 24px;
-letter-spacing: 1,7;
+font-style: normal;
+line-height: 1.7;
 text-align: left;
     }
     .page-footer-nav {
         color: var(--logo-text-color);
         font-family: 'Roboto';
         font-size: 26px;
-        line-height: 26px;
-        letter-spacing: 1,2;
+        line-height: 1.2;
         text-align: left;
     }
     .page-footer-logo {
         color: var(--accent-color);
 font-family: 'Raleway';      
 font-size: 26px;
-line-height: 26px;
-letter-spacing: 1,2;
+line-height: 1.2;
 text-align: left;
 }
